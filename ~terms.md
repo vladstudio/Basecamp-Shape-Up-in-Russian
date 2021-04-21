@@ -15,3 +15,4 @@ must-haves:
 nice-to-haves:
 tangled interdependencies: нечеткие зависимости
 grab-bag: мешок с сюрпризами
+rabbit hole: белое пятно
