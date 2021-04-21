@@ -1,8 +1,8 @@
 hammering the scope: вбивание объёма работы во временные рамки
 shaping: формирование проекта
-setting appetite: 
+appetite: аппетит
 scope mapping: 
-fat marker sketch: Наброски толстым маркером
+fat marker sketch: наброски толстым маркером
 pitching: презентация
 betting: голосование
 breadboarding:  макетная плата
