@@ -16,3 +16,5 @@ nice-to-haves:
 tangled interdependencies: нечеткие зависимости
 grab-bag: мешок с сюрпризами
 rabbit hole: белое пятно
+bet: ставка
+cool-down: Перерыв
