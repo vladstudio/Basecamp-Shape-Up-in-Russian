@@ -19,3 +19,4 @@ rabbit hole: белое пятно
 bet: ставка
 cool-down: Перерыв
 Hill Charts: графики-холмы
+scope: область
