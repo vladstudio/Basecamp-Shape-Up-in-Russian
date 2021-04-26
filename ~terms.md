@@ -1,22 +1,21 @@
-hammering the scope: Вколачивание
-shaping: формирование проекта
+shape up, shaping: формирование проекта
+hammering the scope: вколачивание
 appetite: аппетит
-scope mapping: 
+scope mapping: карта проекта
 fat marker sketch: наброски толстым маркером
 pitching: презентация
 betting: голосование
 breadboarding:  макетная плата
-circuit breaker:
-cool-down:
-breaking work into scopes:
-uphill work:
-downhill work:
-must-haves:
-nice-to-haves:
+circuit breaker: предохранитель
+cool-down: перерыв
+uphill: путь вверх по холму
+downhill: путь вниз по холму
+must-haves: обязательные задачи
+nice-to-haves: необязательные задачи
 tangled interdependencies: нечеткие зависимости
 grab-bag: мешок с сюрпризами
 rabbit hole: белое пятно
 bet: ставка
 cool-down: Перерыв
-Hill Charts: графики-холмы
-scope: область
+hill charts: графики-холмы
+scope: участок
