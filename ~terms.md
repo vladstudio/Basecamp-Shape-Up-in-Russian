@@ -1,4 +1,4 @@
-hammering the scope: вбивание объёма работы во временные рамки
+hammering the scope: Вколачивание
 shaping: формирование проекта
 appetite: аппетит
 scope mapping: 
