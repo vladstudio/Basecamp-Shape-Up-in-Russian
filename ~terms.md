@@ -12,7 +12,7 @@ uphill: путь вверх по холму
 downhill: путь вниз по холму
 must-haves: обязательные задачи
 nice-to-haves: необязательные задачи
-tangled interdependencies: нечеткие зависимости
+tangled interdependencies: нечёткие зависимости
 grab-bag: мешок с сюрпризами
 rabbit hole: белое пятно
 bet: ставка
