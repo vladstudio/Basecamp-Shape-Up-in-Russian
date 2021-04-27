@@ -4,18 +4,21 @@
 # -- install latest mdpdf from https://github.com/BlueHatbRit/mdpdf :
 # npm install mdpdf@2.1.1 -g
 
-# -- install cpdf (to merge pdf files)
-# brew tap oncletom/cpdf
-# brew install cpdf
+# edit /opt/homebrew/lib/node_modules/mdpdf/node_modules/puppeteer/lib/LifecycleWatcher.js
+# replace 
+# this._timeout = timeout;
+# with
+# this._timeout = 0;
 
 folder=$(dirname "$0")
 cd "${folder}"
 
 for f in $(ls ../markdown/*.md); do
-    mdpdf "${f}" --format=A5 --no-emoji --style="../scripts/markdown-to-pdf.css"
-    mv "${f/.md/.pdf}" ../temp/
+    cat "${f}" ../scripts/page-break.html >> "../temp/temp.md"
+    # mv "${f/.md/.pdf}" ../temp/
 done
-cpdf ../temp/*.pdf -o ../pdf/Shape-Up-Russian.pdf
+mdpdf "../temp/temp.md" --format=A5 --no-emoji --style="../scripts/markdown-to-pdf.css"
+mv "../temp/temp.pdf" "../pdf/Shape-Up-Russian.pdf"
 rm ../temp/*
 
 osascript -e 'display notification "PDF file has been created"'
