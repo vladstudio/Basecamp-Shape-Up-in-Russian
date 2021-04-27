@@ -1,4 +1,4 @@
-shape up, shaping: формирование проекта
+shaping: формирование проекта
 hammering the scope: вколачивание
 appetite: аппетит
 scope mapping: карта проекта
