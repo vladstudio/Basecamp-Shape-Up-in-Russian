@@ -641,3 +641,19 @@
   position: relative;
   border-color: #4078c0;
 }
+
+/* https://stackoverflow.com/questions/9238868/how-do-i-avoid-a-page-break-immediately-after-a-heading */
+h1, h2, h3, h4, h5 {
+  page-break-inside: avoid;
+}
+h1::after, h2::after, h3::after, h4::after, h5::after {
+  content: "";
+  display: block;
+  height: 100px;
+  margin-bottom: -100px;
+}
+
+/* https://stackoverflow.com/questions/3893986/css-media-print-issues-with-background-color */
+body {
+  -webkit-print-color-adjust: exact !important;
+}
