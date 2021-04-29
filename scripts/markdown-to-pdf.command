@@ -19,11 +19,11 @@ rm ../temp/*
 
 # merge markdown files
 for f in $(ls ../markdown/*.md); do
-    cat "${f}" ../scripts/page-break.html >> ../temp/temp.md
+    cat "${f}" ../scripts/pieces/page-break.html >> ../temp/temp.md
 done
 
 # generate pdf from temp.md
-mdpdf ../temp/temp.md --format=A5 --no-emoji --style="../scripts/markdown-to-pdf.css"
+mdpdf ../temp/temp.md --format=A5 --no-emoji --style="../scripts/pieces/markdown-to-pdf.css"
 mv "../temp/temp.pdf" "../pdf/Shape-Up-Russian.pdf"
 rm ../temp/*
 
