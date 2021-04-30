@@ -110,12 +110,6 @@
 
 .markdown-body a {
   color: #000;
-  text-decoration: none;
-}
-
-.markdown-body a:hover,
-.markdown-body a:active {
-  text-decoration: underline;
 }
 
 .markdown-body hr {
@@ -124,7 +118,7 @@
   overflow: hidden;
   background: transparent;
   border: 0;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ECDFD4;
 }
 
 .markdown-body hr:before {
@@ -260,7 +254,7 @@
   padding-bottom: 0.3em;
   font-size: 1.7em;
   line-height: 1.225;
-  border-bottom: 1px solid #ECDFD4;
+  /* border-bottom: 1px solid #ECDFD4; */
 }
 
 .markdown-body h2 .anchor {
@@ -481,24 +475,6 @@
   line-height: 0.96em;
 }
 
-
-
-/* colored bullets on lists */
-
-.markdown-body ul {
-  list-style: none; /* Remove default bullets */
-}
-
-.markdown-body ul li::before {
-  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: #FFE001; /* Change the color */
-  font-weight: bold; /* If you want it to be bold */
-  display: inline-block; /* Needed to add space between the bullet and the text */
-  width: 1em; /* Also needed for space (tweak if needed) */
-  margin-left: -1em; /* Also needed for space (tweak if needed) */
-}
-
-
 /* https://stackoverflow.com/questions/9238868/how-do-i-avoid-a-page-break-immediately-after-a-heading */
 h1, h2, h3, h4, h5 {
   page-break-inside: avoid;
@@ -513,4 +489,10 @@ h1::after, h2::after, h3::after, h4::after, h5::after {
 /* https://stackoverflow.com/questions/3893986/css-media-print-issues-with-background-color */
 body {
   -webkit-print-color-adjust: exact !important;
+}
+
+/* yellow underline for links */
+.markdown-body a {
+  text-decoration: underline;
+  text-decoration-color: #FFE001;
 }
