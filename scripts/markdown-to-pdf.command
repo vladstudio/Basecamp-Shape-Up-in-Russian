@@ -21,12 +21,7 @@ for f in $(ls ../markdown/*.md); do
 done
 
 # generate pdf from temp.md
-mdpdf ../temp/temp.md \
-  --format=A5 --no-emoji \
-# --header ../scripts/pieces/header.html \
-# --footer ../scripts/pieces/footer.html \
-  --style=../scripts/pieces/markdown-to-pdf.css
-
+mdpdf ../temp/temp.md --format=A5 --no-emoji --style=../scripts/pieces/markdown-to-pdf.css
 mv ../temp/temp.pdf ../pdf/Shape-Up-Russian.pdf
 
 # post-cleanup
